@@ -10,7 +10,7 @@ source:
   sha256: 94ae4a5a8f01444c3e40f9a865c5db68b23921e65ec7a49934c75453ecb34b50
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
@@ -51,6 +51,7 @@ test:
 about:
   home: https://marcelotduarte.github.io/cx_Freeze
   license: MIT
+  license_family: MIT
   license_file: LICENSE
   summary: Core dependency for cx_Freeze.
 
